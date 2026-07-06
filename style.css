@@ -1,4 +1,4 @@
-/* --- Variables de Diseño y Reseteo --- */
+
 :root {
     --bg-dark: #0f172a;
     --bg-card: #1e293b;
@@ -26,7 +26,7 @@ body {
     line-height: 1.6;
 }
 
-/* --- Barra de Navegación --- */
+
 header {
     background-color: rgba(15, 23, 42, 0.95);
     position: fixed;
@@ -73,7 +73,7 @@ header {
     color: var(--accent);
 }
 
-/* --- Secciones Comunes --- */
+
 .section-container {
     max-width: 1100px;
     margin: 0 auto;
@@ -97,7 +97,7 @@ h2::before {
     background-color: var(--accent);
 }
 
-/* --- Sección Hero / Inicio --- */
+
 .hero-section {
     padding: 180px 20px 100px 20px;
     text-align: center;
@@ -145,7 +145,7 @@ h2::before {
     background-color: var(--accent-hover);
 }
 
-/* --- Sección Sobre Mí & Habilidades --- */
+
 .about-section {
     background-color: #111827;
 }
@@ -177,7 +177,7 @@ h3 {
     border: 1px solid #334155;
 }
 
-/* --- Sección Proyectos --- */
+
 .projects-grid {
     margin-top: 20px;
 }
@@ -217,7 +217,7 @@ h3 {
     font-weight: bold;
 }
 
-/* --- Sección Contacto --- */
+
 .contact-section {
     background-color: #111827;
     text-align: center;
@@ -249,7 +249,7 @@ h3 {
     color: #000;
 }
 
-/* --- Pie de Página --- */
+
 footer {
     text-align: center;
     padding: 30px;
@@ -260,16 +260,16 @@ footer {
 }
 
 .hero-avatar {
-    width: 150px;          /* Controla el ancho de la foto */
-    height: 200px;         /* Controla el alto de la foto */
-    border-radius: 50%;    /* Hace la foto completamente redonda */
-    object-fit: cover;     /* Evita que la foto se distorsione o se estire */
-    margin-bottom: 20px;   /* Separa la foto del texto de abajo */
-    border: 3px solid var(--accent); /* Le da un borde brillante con el color de tu portafolio */
-    box-shadow: 0px 4px 20px rgba(56, 189, 248, 0.2); /* Un pequeño brillo de fondo */
+    width: 150px;         
+    height: 200px;       
+    border-radius: 50%;  
+    object-fit: cover;    
+    margin-bottom: 20px;  
+    border: 3px solid var(--accent); 
+    box-shadow: 0px 4px 20px rgba(56, 189, 248, 0.2); 
 }
 
-/* --- Estilos del Formulario de Contacto --- */
+
 .contact-form {
     max-width: 500px;
     margin: 0 auto 40px auto;
@@ -319,12 +319,12 @@ footer {
     background-color: var(--accent-hover);
 }
 
-/* Espaciado inferior para los botones antes del formulario */
+
 .contact-links {
     margin-bottom: 40px; 
 }
 
-/* Estilo personalizado y llamativo para el botón de WhatsApp */
+
 .whatsapp-btn {
     border-color: #25d366 !important;
     color: #25d366 !important;
@@ -335,7 +335,7 @@ footer {
     color: #fff !important;
 }
 
-/* Agrega un pequeño espacio a la derecha de cada logo */
+
 .contact-btn i {
     margin-right: 8px;
     font-size: 1.1rem;
