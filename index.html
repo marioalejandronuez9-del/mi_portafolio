@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio | Ingeniero en Informática</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="nav-container">
+            <div class="logo">Mi Portafolio</div>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre Mí</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="MARIO NUÑEZ CV.pdf" target="_blank"><i class="fa-regular fa-file-pdf"></i> CV</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio" class="hero-section">
+        <div class="hero-content">
+            <img src="mi-foto.jpg" alt="Foto de Tu Nombre" class="hero-avatar">
+            <h1>Hola, soy <span class="highlight">Mario Nuñez</span></h1>
+            <h2>Ingeniero en Informática / Desarrollador Web</h2>
+            <p>Especializado en crear soluciones tecnológicas eficientes, robustas y escalables.</p>
+            <a href="#proyectos" class="btn-primary">Ver Mis Proyectos</a>
+        </div>
+    </section>
+
+    <section id="sobre-mi" class="about-section">
+        <div class="section-container">
+            <h2>Sobre Mí</h2>
+            <p>Soy un profesional apasionado por el desarrollo de software y la ingeniería de sistemas. Me enfoco en
+                escribir código limpio, aplicar buenas prácticas y patrones de diseño para resolver problemas reales.
+            </p>
+
+            <h3>Mis Habilidades Técnicas</h3>
+            <div class="skills-grid">
+                <span class="skill-tag">HTML5 / CSS3</span>
+                <span class="skill-tag">JavaScript</span>
+                <span class="skill-tag">PHP</span>
+                <span class="skill-tag">MySQL / Bases de Datos</span>
+                <span class="skill-tag">Arquitectura MVC</span>
+                <span class="skill-tag">Git / GitHub</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="proyectos" class="projects-section">
+        <div class="section-container">
+            <h2>Proyectos Destacados</h2>
+            <div class="projects-grid">
+
+                <div class="project-card">
+                    <div class="project-info">
+                        <h3>Sistema de Gestión de Activos</h3>
+                        <p>Desarrollo de una plataforma web completa para el control, auditoría y administración de
+                            activos tecnológicos utilizando arquitectura MVC, PHP y MySQL.</p>
+                        <div class="project-tech">
+                            <span>PHP</span><span>MySQL</span><span>MVC</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-info">
+                        <h3>Proyecto de Redes / Conectividad</h3>
+                        <p>Diseño e implementación de topologías de red seguras basadas en estándares de la industria,
+                            optimizando el enrutamiento y la conectividad.</p>
+                        <div class="project-tech">
+                            <span>Redes</span><span>CCNA</span><span>Seguridad</span>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contacto" class="contact-section">
+        <div class="section-container">
+            <h2>Contacto</h2>
+            <p>¿Tienes un proyecto en mente o una oportunidad laboral? ¡Hablemos!</p>
+
+            <!-- PRIMERO: Los botones de contacto (Redes y WhatsApp) -->
+            <div class="contact-links">
+                <a href="https://wa.me/50496085630" target="_blank" class="contact-btn whatsapp-btn">
+                    <i class="fa-brands fa-whatsapp"></i> WhatsApp
+                </a>
+                <a href="https://github.com/marioalejandronuez9-del" target="_blank" class="contact-btn">
+                    <i class="fa-brands fa-github"></i> GitHub
+                </a>
+                <a href="https://www.linkedin.com/in/mario-nuñez-flores-bb71813b6" target="_blank" class="contact-btn">
+                    <i class="fa-brands fa-linkedin-in"></i> LinkedIn
+                </a>
+            </div>
+
+            <!-- SEGUNDO: El Formulario de contacto abajo de los botones -->
+            <form action="https://formspree.io/f/TU_CODIGO_REAL" method="POST" class="contact-form">
+                <div class="form-group">
+                    <input type="text" name="name" placeholder="Tu Nombre" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" placeholder="Tu Correo Electrónico" required>
+                </div>
+                <div class="form-group">
+                    <textarea name="message" rows="5" placeholder="Tu Mensaje" required></textarea>
+                </div>
+                <button type="submit" class="btn-submit">Enviar Mensaje</button>
+            </form>
+
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 MarioNuñez. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+
+</html>
